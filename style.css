@@ -15,9 +15,6 @@ body {
 .white .navbar-nav .nav-link {
   color: black;
 }
-.navbar {
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
-}
 .navbar .navbar-brand img {
   max-width: 100px;
 }
@@ -294,4 +291,15 @@ i {
   font-size: 20px;
   color: red;
   margin-right: 10px;
+}
+.legacy-head {
+  background-image: url("image/legacybg.png");
+  background-position: center;
+  background-size: cover;
+}
+.award span {
+  color: #979696;
+}
+.award span:hover {
+  color: #d7ba16;
 }

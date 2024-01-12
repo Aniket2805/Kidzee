@@ -1,4 +1,3 @@
-// Cache the navigation element and its initial offset
 var nav = document.getElementById("nav");
 var navwh = document.getElementsByClassName("white");
 var navLinks = document.querySelectorAll(".nav-link");
@@ -16,19 +15,11 @@ function handleScroll() {
     navLinks.forEach(function (link) {
       link.style.color = "white";
     });
-    // Display the sticky element
     sticky.style.display = "block";
   } else {
-    // Apply styles for non-sticky header
     nav.style.position = "static";
-    nav.style.backgroundColor = "white";
-    navLinks.forEach(function (link) {
-      link.style.color = "black";
-    });
-    // Hide the sticky element
+    nav.style.background = "transparent";
     sticky.style.display = "none";
   }
 }
-
-// Attach the handleScroll function to the scroll event
 window.onscroll = handleScroll;
