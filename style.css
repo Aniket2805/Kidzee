@@ -1,16 +1,23 @@
 body {
   background-color: #ebe1ff;
 }
+#nav {
+  width: 100%;
+  position: -webkit-sticky; /* Safari & IE */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  transition: 0.2s ease;
+}
 .navbar {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
-  background-color: #65318e;
 }
 .navbar .navbar-brand img {
   max-width: 100px;
 }
-.navbar .navbar-nav .nav-link {
-  color: #ffffff;
-}
+/* .navbar .navbar-nav .nav-link {
+  color: black;
+} */
 @media screen and (min-width: 1024px) {
   .navbar {
     letter-spacing: 0.1em;
