@@ -973,34 +973,6 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
-    <script>
-      var stickyHeaderTop = $("#nav").offset().top;
-      $(window).scroll(function () {
-        if ($(window).scrollTop() > stickyHeaderTop) {
-          $(".nav-link").css({
-            color: "white",
-          });
-          $(".white").removeClass("white");
-          $("#nav").css({
-            position: "fixed",
-            top: "0px",
-            zIndex: "999",
-            backgroundColor: "#65318e",
-            color: "white",
-          });
-          $("#sticky").css({ display: "block" });
-        } else {
-          $(".nav-link").css({
-            color: "black",
-          });
-          $("#nav").css({
-            position: "static",
-            top: "0px",
-            backgroundColor: "white",
-          });
-          $("#sticky").css("display", "none");
-        }
-      });
-    </script>
+    <script></script>
   </body>
 </html>

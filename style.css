@@ -9,9 +9,9 @@ body {
   z-index: 1;
   transition: 0.2s ease;
 }
-#nav .white {
+/* #nav .white {
   background-color: white;
-}
+} */
 .white .navbar-nav .nav-link {
   color: black;
 }
