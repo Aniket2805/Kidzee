@@ -9,9 +9,9 @@ body {
   z-index: 1;
   transition: 0.2s ease;
 }
-/* #nav .white {
+.white {
   background-color: white;
-} */
+}
 .white .navbar-nav .nav-link {
   color: black;
 }
@@ -283,4 +283,15 @@ i {
 
 .form-control.shadow-0:focus {
   box-shadow: none;
+}
+.footer {
+  background-image: url("image/footer.jpg");
+  padding: 20px 40px;
+  background-position: center;
+  background-size: cover;
+}
+.footer span i {
+  font-size: 20px;
+  color: red;
+  margin-right: 10px;
 }
