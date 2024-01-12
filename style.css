@@ -21,9 +21,6 @@ body {
 .navbar .navbar-brand img {
   max-width: 100px;
 }
-/* .navbar .navbar-nav .nav-link {
-  color: black;
-} */
 @media screen and (min-width: 1024px) {
   .navbar {
     letter-spacing: 0.1em;

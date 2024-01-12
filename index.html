@@ -37,10 +37,10 @@
         Admission Enquiry
       </button>
     </div>
-    <div id="nav" class="">
+    <div id="nav">
       <nav class="navbar white navbar-expand-md">
         <div class="container-xl">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.html">
             <img src="logo.png" alt="" />
           </a>
           <button
@@ -974,34 +974,32 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      $(function () {
-        var stickyHeaderTop = $("#nav").offset().top;
-        $(window).scroll(function () {
-          if ($(window).scrollTop() > stickyHeaderTop) {
-            $(".nav-link").css({
-              color: "white",
-            });
-            $(".white").removeClass("white");
-            $("#nav").css({
-              position: "fixed",
-              top: "0px",
-              zIndex: "999",
-              backgroundColor: "#65318e",
-              color: "white",
-            });
-            $("#sticky").css({ display: "block" });
-          } else {
-            $(".nav-link").css({
-              color: "black",
-            });
-            $("#nav").css({
-              position: "static",
-              top: "0px",
-              backgroundColor: "white",
-            });
-            $("#sticky").css("display", "none");
-          }
-        });
+      var stickyHeaderTop = $("#nav").offset().top;
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > stickyHeaderTop) {
+          $(".nav-link").css({
+            color: "white",
+          });
+          $(".white").removeClass("white");
+          $("#nav").css({
+            position: "fixed",
+            top: "0px",
+            zIndex: "999",
+            backgroundColor: "#65318e",
+            color: "white",
+          });
+          $("#sticky").css({ display: "block" });
+        } else {
+          $(".nav-link").css({
+            color: "black",
+          });
+          $("#nav").css({
+            position: "static",
+            top: "0px",
+            backgroundColor: "white",
+          });
+          $("#sticky").css("display", "none");
+        }
       });
     </script>
   </body>
