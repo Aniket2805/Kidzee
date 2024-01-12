@@ -9,6 +9,12 @@ body {
   z-index: 1;
   transition: 0.2s ease;
 }
+#nav .white {
+  background-color: white;
+}
+.white .navbar-nav .nav-link {
+  color: black;
+}
 .navbar {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }

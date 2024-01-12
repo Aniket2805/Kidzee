@@ -37,8 +37,8 @@
         Admission Enquiry
       </button>
     </div>
-    <div id="nav">
-      <nav class="navbar navbar-expand-md">
+    <div id="nav" class="">
+      <nav class="navbar white navbar-expand-md">
         <div class="container-xl">
           <a class="navbar-brand" href="#">
             <img src="logo.png" alt="" />
@@ -190,14 +190,11 @@
     </div>
     <div class="container-fluid" style="background-color: #ebe1ff">
       <div class="row" style="padding: 40px 0px">
-        <div
-          class="col col-md-6"
-          style="display: flex; justify-content: center"
-        >
+        <div class="col-md-6" style="display: flex; justify-content: center">
           <img src="image/about.png" alt="" />
         </div>
         <div
-          class="col col-md-6"
+          class="col-md-6"
           style="
             display: flex;
             flex-direction: column;
@@ -208,12 +205,17 @@
           <h1 style="color: #65318e">About Us</h1>
           <h2>Kidzee Preschool</h2>
           <p>
-            Kidzee Preschool is leading chain with preschool situated in India
-            and Nepal backed Zee Learn Ltd. With more than two decades of
-            experience in the preschool industry, Kidzee has nurtured more than
-            1.4 million children throughout India. Being one of the largest
-            preschools in India. Kidzee has 2000+ centres in 750+ cities in
-            India and Nepal.
+            A pioneer in ECCE (Early Childhood Care and Education), we are the
+            largest preschool chain in Asia. With an incredible network of more
+            than 2000+ centers in over 750+ cities, we are committed to
+            spearheading child development across the nation. Having touched the
+            lives of more than 10,00,000 children in India, Kidzee, a decade on,
+            remains focussed on nurturing the ‘unique potential’ in every child.
+            With years of dedicated research, Kidzee has set unparalleled
+            standards in the CDE (Child Development & Education) space. Having
+            acknowledged the uniqueness of each child and their infinite
+            potential. Kidzee has is its proprietary pedagogy, ‘iLLUME’, India’s
+            one and only University-verified preschool curriculum.
           </p>
         </div>
       </div>
@@ -255,9 +257,11 @@
                 </div>
               </div>
               <p>
-                Children are born curious. They begin to explore the environment
-                around them as soon as they are born. Kidzee’s playgroup
-                curriculum plays an important role in helping...
+                Children start to explore the world around them as soon as they
+                are born. At Kidzee, the play group curriculum enables children
+                to continue their exploration. Early experiences in the first
+                few years of life are critical for acquisition of skills as
+                maximum brain....
               </p>
               <button
                 type="button"
@@ -301,10 +305,12 @@
                 </div>
               </div>
               <p>
-                To set a firm foundation in the early years of preschool,
-                quality early childhood education is vital for the overall
-                development of a child. The Nursery syllabus has the right array
-                of...
+                Quality education in the early years of preschool sets a firm
+                foundation in the overall development of a child. At Kidzee, the
+                nursery curriculum provides a right array of activities to help
+                children move towards achieving their early learning goals. In
+                Nursery, children are engaged in school readiness activities
+                such as reading, writing..
               </p>
               <button
                 type="button"
@@ -348,9 +354,10 @@
                 </div>
               </div>
               <p>
-                At Kidzee, the Kindergarten (KG) curriculum ensures a smooth
-                transition to formal schooling. Children learn age-appropriate
-                activities in various areas like English language...
+                The transition from preschool to primary school is a crucial
+                time of change for both children as well as their parents. At
+                Kidzee, the Kindergarten (K.G.) curriculum ensures smooth
+                transition to formal schooling with meaningful and progressive
               </p>
               <button
                 type="button"
@@ -440,7 +447,7 @@
         </div>
       </div>
     </div>
-    <div style="text-align: center; padding: 40px 0px">
+    <div style="width: 100%; text-align: center; padding: 40px 0px">
       <img src="image/allMonkey.png" style="width: 100%" />
     </div>
     <div class="container-fluid">
@@ -646,6 +653,9 @@
                 --bs-btn-padding-x: 0.5rem;
                 --bs-btn-font-size: 0.75rem;
                 background-color: #65318e;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
                 color: white;
                 border: none;
               "
@@ -670,6 +680,9 @@
                 --bs-btn-padding-x: 0.5rem;
                 --bs-btn-font-size: 0.75rem;
                 background-color: #65318e;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
                 color: white;
                 border: none;
               "
@@ -696,6 +709,9 @@
                 --bs-btn-padding-x: 0.5rem;
                 --bs-btn-font-size: 0.75rem;
                 background-color: #65318e;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
                 color: white;
                 border: none;
               "
@@ -954,6 +970,7 @@
             $(".nav-link").css({
               color: "white",
             });
+            $(".white").removeClass("white");
             $("#nav").css({
               position: "fixed",
               top: "0px",
