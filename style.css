@@ -69,11 +69,6 @@ body {
 .contact-info a {
   padding-right: 0;
 }
-/* .about .monkey {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 .kids {
   background-image: url("data:image/svg+xml,%3Csvg%0A%20%20%20%20%20%20%20%20%20%20%20%20_ngcontent-ng-c833555323%3D%22%22%0A%20%20%20%20%20%20%20%20%20%20%20%20id%3D%22svg2%22%0A%20%20%20%20%20%20%20%20%20%20%20%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%0A%20%20%20%20%20%20%20%20%20%20%20%20width%3D%221440%22%0A%20%20%20%20%20%20%20%20%20%20%20%20height%3D%221340%22%0A%20%20%20%20%20%20%20%20%20%20%20%20viewBox%3D%220%200%201440%201340%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22none%22%0A%20%20%20%20%20%20%20%20%20%20%20%20class%3D%22boysImg_mobileView%22%0A%20%20%20%20%20%20%20%20%20%20%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20_ngcontent-ng-c833555323%3D%22%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20d%3D%22M0%20180.001C0%20180.001%2090%2090.573%20262%2067.0763C434%2043.5796%20624.535%20117.817%20780%20112.075C932.711%20106.436%201021.85%2031.3142%201174.5%2021.0815C1336%2010.2552%201440%2084.2811%201440%2084.2811V1288.6C1440%201288.6%201314.5%201239.26%201174.5%201229.07C969%201214.1%20864.789%201310.59%20715.5%201310.59C569%201310.59%20419.5%201229.07%20292%201229.07C84.8618%201229.07%200%201320%200%201320V180.001Z%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23DFCFFF%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%3C%2Fsvg%3E");
   background-repeat: no-repeat;
@@ -287,15 +282,23 @@ i {
   background-position: center;
   background-size: cover;
 }
+.program span i,
 .footer span i {
   font-size: 20px;
   color: red;
   margin-right: 10px;
 }
+.program span i {
+  font-size: 22px;
+}
+.programs-head,
 .legacy-head {
   background-image: url("image/legacybg.png");
   background-position: center;
   background-size: cover;
+}
+.programs-head {
+  background-image: url("/image/programs.png");
 }
 .award span {
   color: #979696;
