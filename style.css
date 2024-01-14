@@ -1,5 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: #ebe1ff;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+.formbold-mb-5 {
+  margin-bottom: 20px;
+}
+.formbold-pt-3 {
+  padding-top: 12px;
+}
+.formbold-form-wrapper {
+  background-color: white;
+  box-shadow: 6px 8px 8px 8px rgb(209, 208, 208);
+  padding: 40px;
+  border-radius: 20px;
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+}
+.formbold-form-label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #07074d;
+  margin-bottom: 6px;
+}
+.formbold-form-label-2 {
+  font-weight: 600;
+}
+
+.formbold-form-input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  background: white;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  outline: none;
+  resize: none;
+}
+.formbold-form-input:focus {
+  border-color: #6a64f1;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold-btn {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 14px 32px;
+  border: none;
+  font-weight: 600;
+  background-color: #65318e;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+.formbold-btn:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold--mx-3 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.formbold-px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.w-full {
+  width: 100%;
+}
+@media (min-width: 540px) {
+  .sm\:w-half {
+    width: 50%;
+  }
 }
 #nav {
   width: 100%;
@@ -193,10 +280,6 @@ footer a {
 }
 .accordion-item {
   margin-top: 16px;
-  /* border: 1px solid #fcfcfc; */
-  /* border-radius: 6px; */
-  /* background: #ffffff; */
-  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px; */
 }
 .accordion-item label {
   color: #90228d;
@@ -292,17 +375,46 @@ i {
   font-size: 22px;
 }
 .programs-head,
+.gallery-head,
 .legacy-head {
   background-image: url("image/legacybg.png");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .programs-head {
   background-image: url("/image/programs.png");
+}
+.gallery-head {
+  background-image: url("/image/gallerybg.png");
 }
 .award span {
   color: #979696;
 }
 .award span:hover {
   color: #d7ba16;
+}
+.admission i {
+  background-color: white;
+  color: #65318e;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  border: 3px solid #65318e;
+}
+.admission h3 {
+  font-weight: 600;
+  color: #07074d;
+}
+.admission p {
+  color: #393838;
+}
+@media (max-width: 768px) {
+  .formbold-form-wrapper {
+    padding: 30px;
+  }
 }
