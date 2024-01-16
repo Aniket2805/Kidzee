@@ -418,3 +418,16 @@ i {
     padding: 30px;
   }
 }
+.testimonial {
+  padding: 20px 80px;
+}
+@media (max-width: 700px) {
+  .testimonial {
+    padding: 20px 40px;
+  }
+}
+@media (max-width: 420px) {
+  .testimonial {
+    padding: 20px 30px;
+  }
+}

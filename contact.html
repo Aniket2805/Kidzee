@@ -52,6 +52,7 @@
             <img src="/logo.png" alt="" />
           </a>
           <button
+            id="nav-tog"
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -59,6 +60,7 @@
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            onclick="myFunction()"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -151,6 +153,7 @@
         </div>
       </nav>
       <h1
+        id="head"
         style="
           color: white;
           text-align: center;
@@ -162,8 +165,8 @@
       </h1>
     </div>
     <div class="container-fluid admission">
-      <div class="row" style="margin: 40px 0px">
-        <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-6 mt-5">
           <div class="formbold-form-wrapper">
             <form action="" method="POST">
               <label
@@ -236,7 +239,10 @@
             </form>
           </div>
         </div>
-        <div class="col-md-6" style="display: flex; align-items: center">
+        <div
+          class="col-md-6 mt-5"
+          style="display: flex; align-items: center; justify-content: center"
+        >
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.981779473558!2d77.69131477489415!3d13.036831687284526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11e11cb4233d%3A0xada888a0ddde39ee!2sKidzee%20Margondanahalli!5e0!3m2!1sen!2sin!4v1705260132185!5m2!1sen!2sin"
             width="600"

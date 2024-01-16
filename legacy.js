@@ -23,3 +23,12 @@ function handleScroll() {
   }
 }
 window.onscroll = handleScroll;
+function myFunction() {
+  if (document.getElementById("nav-tog").classList.contains("collapsed")) {
+    document.getElementById("nav").style.background = "transparent";
+    document.getElementById("head").style.display = "block";
+  } else {
+    document.getElementById("nav").style.backgroundColor = "#65318e";
+    document.getElementById("head").style.display = "none";
+  }
+}
