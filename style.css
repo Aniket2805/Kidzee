@@ -211,6 +211,12 @@ footer a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media (max-width: 858px) {
+  .bg_boy {
+    height: 60rem;
+    background-image: url("image/bg_boy2.png");
+  }
+}
 .blog img {
   width: 250px;
   height: 250px;
