@@ -3,7 +3,7 @@ var navwh = document.getElementsByClassName("white");
 var navLinks = document.querySelectorAll(".nav-link");
 var sticky = document.getElementById("sticky");
 var stickyHeaderTop = nav.offsetTop;
-
+var logo = document.getElementById("logo");
 // Function to handle scroll events
 function handleScroll() {
   if (window.scrollY > stickyHeaderTop) {

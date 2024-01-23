@@ -4,10 +4,11 @@ var navwh = document.getElementsByClassName("white");
 var navLinks = document.querySelectorAll(".nav-link");
 var sticky = document.getElementById("sticky");
 var stickyHeaderTop = nav.offsetTop;
-
+var logo = document.getElementById("logo");
 // Function to handle scroll events
 function handleScroll() {
   if (window.scrollY > stickyHeaderTop) {
+    logo.src = "/logo2.png";
     nav.classList.remove("white");
     nav.style.position = "fixed";
     nav.style.top = "0px";
@@ -20,6 +21,7 @@ function handleScroll() {
     sticky.style.display = "block";
   } else {
     // Apply styles for non-sticky header
+    logo.src = "/logo.png";
     nav.style.position = "static";
     nav.style.backgroundColor = "white";
     navLinks.forEach(function (link) {
